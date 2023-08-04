@@ -386,7 +386,6 @@ Resources:
     Type: AWS::S3::Bucket
     DeletionPolicy: Delete
     Properties:
-      AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: index.html
       PublicAccessBlockConfiguration:
