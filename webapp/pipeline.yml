@@ -5,14 +5,14 @@ Parameters:
   EmailAddress:
     Description: Email Address for sending SNS notifications for CodeCommit
     Type: String
-    Default: fake-email@fake-fake-fake-email.com
+    Default: vuhondat@yahoo.com
   PipelineBucket:
     Type: String
     Description: S3Bucket
   GitHubUser:
     Type: String
     Description: GitHub User
-    Default: "PaulDuvall"
+    Default: "vuhondat"
   GitHubRepo:
     Type: String
     Description: GitHub Repo to pull from. Only the Name. not the URL
